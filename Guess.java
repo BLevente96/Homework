@@ -19,12 +19,12 @@ public class Guess {
         while (dice != number) {
 
             dice = random.nextInt(6) + 1;
-            System.out.println("The dice ladned on:"+dice);
+            System.out.println("The dice ladned on:" + dice);
             diceThrows++;
 
         }
 
-        System.out.println("The number we had to throw a dice to get your number: "+ diceThrows);
+        System.out.println("The number we had to throw a dice to get your number: " + diceThrows);
 
 
     }

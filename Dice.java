@@ -9,26 +9,26 @@ public class Dice {
         System.out.println("How many dices would you like to play with? '1' '2' '3'");
         int diceNum = sc.nextInt();
         int playerScore = 0;
-        int computerScore= 0;
+        int computerScore = 0;
 
         for (int i = 0; i < 5; i++) {
-            int computerThrow= diceRoll(random,diceNum);
-            int playerThrow= diceRoll(random,diceNum);
+            int computerThrow = diceRoll(random, diceNum);
+            int playerThrow = diceRoll(random, diceNum);
 
-            System.out.println("Computer throws: "+computerThrow);
-            System.out.println("Player throws: "+playerThrow);
-            playerScore+=playerThrow;
-            computerScore+=computerThrow;
+            System.out.println("Computer throws: " + computerThrow);
+            System.out.println("Player throws: " + playerThrow);
+            playerScore += playerThrow;
+            computerScore += computerThrow;
 
-            if(diceNum==3&& playerThrow==18){
+            if (diceNum == 3 && playerThrow == 18) {
                 System.out.println("Triple 6s Player WINS!");
                 return;
             }
 
         }
 
-        System.out.println("Computer all dice value: "+computerScore);
-        System.out.println("Player all dice value: "+playerScore);
+        System.out.println("Computer all dice value: " + computerScore);
+        System.out.println("Player all dice value: " + playerScore);
 
         if (playerScore > computerScore) {
             System.out.println("Player WON!");

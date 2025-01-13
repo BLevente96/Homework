@@ -9,12 +9,12 @@ public class HarmasFeladat {
         for (int i = 0; i < wordArray.length; i++) {
             if (wordArray[i] == 'b') {
                 countB++;
-                System.out.println("'B' letter found, position: "+i);
+                System.out.println("'B' letter found, position: " + i);
 
 
             }
         }
-        System.out.println("The number of 'b's in the word is: "+countB);
+        System.out.println("The number of 'b's in the word is: " + countB);
 
 
     }

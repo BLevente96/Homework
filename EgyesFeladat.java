@@ -37,4 +37,4 @@ public class EgyesFeladat {
         return false;
     }
 
-    }
+}

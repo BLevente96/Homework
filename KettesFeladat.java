@@ -18,10 +18,10 @@ public class KettesFeladat {
 
 
         }
-        if(wordgotA) {
+        if (wordgotA) {
             System.out.println("The word got 'A' in it");
-            System.out.println("The first 'A' position is: "+ position);
-        }else System.out.println("The word got no 'A' in it");
+            System.out.println("The first 'A' position is: " + position);
+        } else System.out.println("The word got no 'A' in it");
 
 
     }
